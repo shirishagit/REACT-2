@@ -1,4 +1,4 @@
-import react, { use, useState } from "react";
+import react, {useState } from "react";
 
 const One = () =>{
   const[data,update] =useState("shirisha")
