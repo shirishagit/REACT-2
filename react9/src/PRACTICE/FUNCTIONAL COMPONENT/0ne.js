@@ -1,13 +1,18 @@
-import react from "react";
+import react, { use, useState } from "react";
 
-const One = props =>{
-    console.log(props)
+const One = () =>{
+  const[data,update] =useState("shirisha")
+    function dataUpdate(){
+        update("sai")
+    }
     return(
-        <div>
-           <h1>Functional compounent {props.name}  { props.used}</h1>
-        </div>
-       
+       <div>
+        <h1>{data}</h1>
+        <button onClick={dataUpdate}>click it</button>
+        
+       </div>
     )
+  
 }
-
+    
 export default One;
