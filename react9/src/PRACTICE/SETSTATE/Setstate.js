@@ -1,8 +1,13 @@
-import react from "react";
+import react, { useState } from "react";
 
 const Setstate =()=>{
+    const[count,firstNumber]=useState(0)
+   
     return(
-        <div>changing the state in functional compount</div>
+        <div>Count = {count}<br/>
+        <button onClick={()=>firstNumber(count +1)}>increase</button>
+        </div>
+       
     )
 }
 
