@@ -6,12 +6,11 @@ function Methodparent(){
     // function pass(){
     //     childEle("child")
     // }
-      useState ={
-        parent :"hello"
-      }
+      
     return(
         <div>
-            <child exporting={parent}/>
+            <h1>{data}</h1>
+            {/* <child exporting={parent}/> */}
         </div>
     )
 }
