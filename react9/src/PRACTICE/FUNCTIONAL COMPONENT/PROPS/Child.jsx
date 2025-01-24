@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function child(props ){
+const Child=(props)=>{
     return(
         <div>child Element <br/>
              <button onClick={()=> props.exporting}>click</button>
@@ -10,4 +10,4 @@ function child(props ){
     )
 }
 
-export default child;
+export default Child;
