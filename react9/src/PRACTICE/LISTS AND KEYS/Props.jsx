@@ -1,4 +1,5 @@
 import React from "react";
+import PropsChild from "./PropsChild";
 
 const Lists =()=>{
      const arrList = [
@@ -18,8 +19,7 @@ const Lists =()=>{
             studing : "b.com"
         }
      ]
-     const studentList = arrList.map(student =>(
-     <h1>My self {student.studentName} i am studing in {student.studing}</h1>))
+     const studentList = arrList.map(student =>(<PropsChild  key ={student.rollNumber} student={student}/>))
      return(
         <div>{studentList}</div>
      )
