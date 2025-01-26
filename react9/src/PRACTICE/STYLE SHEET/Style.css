@@ -1,0 +1,11 @@
+.design{
+    margin: 20px;
+    padding: 20px;
+    font-style: italic;
+    color: pink;
+    font-size: large;
+}
+
+.one{
+    border-color: 2px solid black;
+}
