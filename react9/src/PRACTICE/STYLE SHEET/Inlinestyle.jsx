@@ -13,4 +13,4 @@ const InlineStyling =()=>{
     )
 }
 
-export default InlineStyling
+export default InlineStyling;

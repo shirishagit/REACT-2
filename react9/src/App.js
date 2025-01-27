@@ -1,6 +1,7 @@
 import react from "react";
-import Styling from "./PRACTICE/STYLE SHEET/Styling";
-import InlineStyling from "./PRACTICE/STYLE SHEET/Inlinestyle";
+// import Styling from "./PRACTICE/STYLE SHEET/Styling";
+// import InlineStyling from "./PRACTICE/STYLE SHEET/Inlinestyle";
+import FormHandling from "./PRACTICE/FORM HANDLING/Form";
 // import One from "./PRACTICE/FUNCTIONAL COMPONENT/0ne"
 // import Setstate from "./PRACTICE/FUNCTIONAL COMPONENT/SETSTATE/Setstate";
 // import One from "./PRACTICE/CLASS COMPONENT/One";
@@ -13,8 +14,9 @@ import InlineStyling from "./PRACTICE/STYLE SHEET/Inlinestyle";
 function App() {
   return (
     <div className="App">
-      <Styling primary={true}/>
-      <InlineStyling/>
+      <FormHandling/>
+      {/* <Styling primary={true}/> */}
+      {/* <InlineStyling/> */}
       {/* <Operator/> */}
       {/* <h1>App.js Component</h1> */}
       {/* <Parent/> */}
