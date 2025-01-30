@@ -1,7 +1,8 @@
-import react from "react";
+import react, { Fragment } from "react";
 // import Styling from "./PRACTICE/STYLE SHEET/Styling";
 // import InlineStyling from "./PRACTICE/STYLE SHEET/Inlinestyle";
 import FormHandling from "./PRACTICE/FORM HANDLING/Form";
+import Fragments from "./PRACTICE/FRAGMENTS/Fragments";
 // import One from "./PRACTICE/FUNCTIONAL COMPONENT/0ne"
 // import Setstate from "./PRACTICE/FUNCTIONAL COMPONENT/SETSTATE/Setstate";
 // import One from "./PRACTICE/CLASS COMPONENT/One";
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <FormHandling/>
+      <Fragments/>
       {/* <Styling primary={true}/> */}
       {/* <InlineStyling/> */}
       {/* <Operator/> */}

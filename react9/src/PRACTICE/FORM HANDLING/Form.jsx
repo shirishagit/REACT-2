@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
+
 const FormHandling = () =>{
        const[username,onchange] = useState("")
        const[feedback,next] = useState("")
-       const[select,Options] = useState("java")
+       const[select,Options] = useState("")
 
      function onChangeUserName(event){
            onchange(event.target.value)
@@ -16,10 +17,9 @@ const FormHandling = () =>{
      }
      function Submmit(){
         console.log(`${username} ${feedback} ${select}`)
-        Event.preventDefault()
+        Event.preventDefault();
      }
-
-    return (
+       return (
        <form  onSubmit={Submmit}>
          <div>
              <label>Username</label>
@@ -30,8 +30,8 @@ const FormHandling = () =>{
             <textarea type="text" value={feedback} onChange={onChangeFeedBack} required></textarea>
          </div>
          <div>
-            <label value={select} onChange={onChangeSelect}>Select</label>
-            <select>
+            <label>Select</label>
+            <select value={select} onChange={onChangeSelect}>
                 <option>C pro</option>
                 <option>C ++</option>
                 <option>Java</option>
