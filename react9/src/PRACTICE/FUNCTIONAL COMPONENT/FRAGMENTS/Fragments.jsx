@@ -1,4 +1,5 @@
 import React from "react";
+//HERE YOU CAN USE <REACT.FRAGMENT> ASLO AN EMPTY TAG TO RUN THE CODE
 
 function Fragments(){
     return(
