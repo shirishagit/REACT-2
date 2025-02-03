@@ -18,15 +18,17 @@ import IfElse from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Ifels
 import ShortCircuit from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/ShortCircuit";
 import TernaryOper from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/TernaryOper";
 import Variables from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Variables";
+import FormHandle from "./PRACTICE/CLASS COMPONENT/FORM HANDLINGS/FormHandle";
 
 
 function App() {
   return (
     <div className="App">
-      <IfElse/>
-      <Variables/>
-      <TernaryOper/>
-      <ShortCircuit/>
+      <FormHandle/>
+      {/* <IfElse/> */}
+      {/* <Variables/> */}
+      {/* <TernaryOper/> */}
+      {/* <ShortCircuit/> */}
       {/* <MethodParent/> */}
       {/* <Prop name={"siri"} to channel={"your code"}/> */}
       {/* <SetState/> */}
