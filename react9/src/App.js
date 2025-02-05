@@ -19,12 +19,14 @@ import ShortCircuit from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC
 import TernaryOper from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/TernaryOper";
 import Variables from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Variables";
 import FormHandle from "./PRACTICE/CLASS COMPONENT/FORM HANDLINGS/FormHandle";
+import RegularComponent from "./PRACTICE/CLASS COMPONENT/PURECOMPONENT/RegulerComponent";
 
 
 function App() {
   return (
     <div className="App">
-      <FormHandle/>
+      <RegularComponent/>
+      {/* <FormHandle/> */}
       {/* <IfElse/> */}
       {/* <Variables/> */}
       {/* <TernaryOper/> */}
