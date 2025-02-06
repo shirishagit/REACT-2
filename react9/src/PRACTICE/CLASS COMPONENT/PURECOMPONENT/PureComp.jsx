@@ -4,7 +4,7 @@ class PUREComponent extends PureComponent{
       render(){
          return(
             <div>
-                <p>pure Component</p>
+                <p>pure Component{this.props.person}</p>
             </div>
         )
     }

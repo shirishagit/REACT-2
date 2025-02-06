@@ -1,5 +1,6 @@
-import React,{Component, PureComponent} from "react";
-import PUREComponent from "./PureComp";
+import React,{Component} from "react";
+// import PUREComponent from "./PureComp";
+import MemoComp from "../../FUNCTIONAL COMPONENT/MEMO/MemoComp";
 
 class RegularComponent extends Component{
     constructor(props){
@@ -8,19 +9,20 @@ class RegularComponent extends Component{
          person:"nine Sai"
         }
     }
-    shouldComponentUpdate(){
+    componentDidMount(){
         setInterval(()=>{
             this.setState({
                 person:"nine sai"
             })
-        },5000)
+        },3000)
     }
     render(){
-        
+        // console.log("siri")
         return(
             <div>
-                <h1>{this.state.person}</h1>
-                <PUREComponent/>
+                {/* <h1>{this.state.person}</h1> */}
+                {/* <PUREComponent/> */}
+                <MemoComp passing={this.state.person}/>
             </div>
         )
     }
