@@ -20,12 +20,13 @@ import TernaryOper from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/
 import Variables from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Variables";
 import FormHandle from "./PRACTICE/CLASS COMPONENT/FORM HANDLINGS/FormHandle";
 import RegularComponent from "./PRACTICE/CLASS COMPONENT/PURECOMPONENT/RegulerComponent";
-
+import Refs from "./PRACTICE/CLASS COMPONENT/REFS /Refs";
 
 function App() {
   return (
     <div className="App">
-      <RegularComponent/>
+      <Refs/>
+      {/* <RegularComponent/> */}
       {/* <FormHandle/> */}
       {/* <IfElse/> */}
       {/* <Variables/> */}
