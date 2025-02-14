@@ -21,11 +21,13 @@ import Variables from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Va
 import FormHandle from "./PRACTICE/CLASS COMPONENT/FORM HANDLINGS/FormHandle";
 import RegularComponent from "./PRACTICE/CLASS COMPONENT/PURECOMPONENT/RegulerComponent";
 import Refs from "./PRACTICE/CLASS COMPONENT/REFS /Refs";
+import Focuse from "./PRACTICE/CLASS COMPONENT/REFSINCLASSCOMP/Focus";
 
 function App() {
   return (
     <div className="App">
-      <Refs/>
+      <Focuse/>
+      {/* <Refs/> */}
       {/* <RegularComponent/> */}
       {/* <FormHandle/> */}
       {/* <IfElse/> */}
