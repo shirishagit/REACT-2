@@ -14,19 +14,22 @@
 // import SetState from "./PRACTICE/CLASS COMPONENT/STATE/SetState";
 // import MethodParent from "./PRACTICE/CLASS COMPONENT/METHOD AS PROP/Methodparent";
 
-import IfElse from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Ifelse";
-import ShortCircuit from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/ShortCircuit";
-import TernaryOper from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/TernaryOper";
-import Variables from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Variables";
-import FormHandle from "./PRACTICE/CLASS COMPONENT/FORM HANDLINGS/FormHandle";
-import RegularComponent from "./PRACTICE/CLASS COMPONENT/PURECOMPONENT/RegulerComponent";
-import Refs from "./PRACTICE/CLASS COMPONENT/REFS /Refs";
-import Focuse from "./PRACTICE/CLASS COMPONENT/REFSINCLASSCOMP/Focus";
+import ForwardRefPar from "./PRACTICE/CLASS COMPONENT/FORWARDING REFS/ForwardRefPar";
+
+// import IfElse from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Ifelse";
+// import ShortCircuit from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/ShortCircuit";
+// import TernaryOper from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/TernaryOper";
+// import Variables from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Variables";
+// import FormHandle from "./PRACTICE/CLASS COMPONENT/FORM HANDLINGS/FormHandle";
+// import RegularComponent from "./PRACTICE/CLASS COMPONENT/PURECOMPONENT/RegulerComponent";
+// import Refs from "./PRACTICE/CLASS COMPONENT/REFS /Refs";
+// import Focuse from "./PRACTICE/CLASS COMPONENT/REFSINCLASSCOMP/Focus";
 
 function App() {
   return (
     <div className="App">
-      <Focuse/>
+      <ForwardRefPar/>
+      {/* <Focuse/> */}
       {/* <Refs/> */}
       {/* <RegularComponent/> */}
       {/* <FormHandle/> */}
