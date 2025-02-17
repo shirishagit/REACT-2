@@ -14,7 +14,9 @@
 // import SetState from "./PRACTICE/CLASS COMPONENT/STATE/SetState";
 // import MethodParent from "./PRACTICE/CLASS COMPONENT/METHOD AS PROP/Methodparent";
 
-import ForwardRefPar from "./PRACTICE/CLASS COMPONENT/FORWARDING REFS/ForwardRefPar";
+import PortalsDom from "./PRACTICE/FUNCTIONAL COMPONENT/PORTALS/PortalsDom";
+
+// import ForwardRefPar from "./PRACTICE/CLASS COMPONENT/FORWARDING REFS/ForwardRefPar";
 
 // import IfElse from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Ifelse";
 // import ShortCircuit from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/ShortCircuit";
@@ -28,7 +30,8 @@ import ForwardRefPar from "./PRACTICE/CLASS COMPONENT/FORWARDING REFS/ForwardRef
 function App() {
   return (
     <div className="App">
-      <ForwardRefPar/>
+      <PortalsDom/>
+      {/* <ForwardRefPar/> */}
       {/* <Focuse/> */}
       {/* <Refs/> */}
       {/* <RegularComponent/> */}
