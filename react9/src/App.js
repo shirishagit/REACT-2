@@ -13,11 +13,9 @@
 // import Increment from "./PRACTICE/CLASS COMPONENT/STATE/Increment";
 // import SetState from "./PRACTICE/CLASS COMPONENT/STATE/SetState";
 // import MethodParent from "./PRACTICE/CLASS COMPONENT/METHOD AS PROP/Methodparent";
-
-import PortalsDom from "./PRACTICE/FUNCTIONAL COMPONENT/PORTALS/PortalsDom";
-
+import IncrementOne from "./PRACTICE/HIGHER ORDER COMPONENTS/IncrementOne";
+// import PortalsDom from "./PRACTICE/FUNCTIONAL COMPONENT/PORTALS/PortalsDom";
 // import ForwardRefPar from "./PRACTICE/CLASS COMPONENT/FORWARDING REFS/ForwardRefPar";
-
 // import IfElse from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/Ifelse";
 // import ShortCircuit from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/ShortCircuit";
 // import TernaryOper from "./PRACTICE/CLASS COMPONENT/CONDITIONAL RENDERING IN CC/TernaryOper";
@@ -30,7 +28,8 @@ import PortalsDom from "./PRACTICE/FUNCTIONAL COMPONENT/PORTALS/PortalsDom";
 function App() {
   return (
     <div className="App">
-      <PortalsDom/>
+      <IncrementOne/>
+      {/* <PortalsDom/> */}
       {/* <ForwardRefPar/> */}
       {/* <Focuse/> */}
       {/* <Refs/> */}
